@@ -11,21 +11,21 @@ import { IoIosSunny } from "react-icons/io";
 
 function ListProperties() {
   return (
-    <section className='bg-[#f3f2f2] py-9'>
+    <section className='bg-[#f3f2f2] py-9 px-4'>
             <div className='flex justify-between items-center px-[4%]'>
                 <div>
-                    <h1 className='text-3xl font-bold pt-[2%]'>List of Properties</h1>
+                    <h1 className='text-[18px] lg:text-3xl font-bold pt-[2%]'>List of Properties</h1>
                     <div className="rounded border-b-4 w-[35%] border-b-red-600">
                     </div>
                 </div>
                 <div>
-                    <button className='border-3 h-[50px] rounded-md inline-block bg-red-600 text-white text-lg px-3'>View all property</button>
+                    <button className='border-3 h-[40px] lg:h-[50px] rounded-md inline-block bg-red-600 text-white text-lg px-3'>View all property</button>
                 </div>
             </div>
-            <div className='flex flex-wrap justify-between items-center py-9 mx-[5%]'>
-                <div className='w-4/12 flex justify-center items-center'>
+            <div className='flex flex-wrap justify-between items-center py-9 lg:mx-[5%]'>
+                <div className='w-full px-6 md:w-1/2 lg:w-4/12 lg:flex justify-center items-center' data-aos="flip-left">
                     <div className='border-solid border-[#e5e4e4] border-[2px] rounded-[30px] bg-white mb-7'>
-                        <img className='w-full' src= {image001} alt="user" />
+                        <img className='w-full h-[300px]' src= {image001} alt="user" />
                         <div className='px-6'>
                             <p className='mt-4 mb-6'>2578 Folsom Street, San Francisco, CA, 94110</p>
                             <p className='text-[#cfcdcd]'>Private Room</p>
@@ -48,9 +48,9 @@ function ListProperties() {
                     </div>
                 </div>
 
-                <div className='w-4/12 flex justify-center items-center'>
+                <div className='w-full px-6 md:w-1/2 lg:w-4/12 lg:flex justify-center items-center' data-aos="flip-left">
                     <div className='border-solid border-[#e5e4e4] border-[2px] rounded-[30px] bg-white mb-7'>
-                        <img className='w-full' src= {image002} alt="user" />
+                        <img className='w-full h-[300px]' src= {image002} alt="user" />
                         <div className='px-6'>
                             <p className='mt-4 mb-6'>2578 Folsom Street, San Francisco, CA, 94110</p>
                             <p className='text-[#cfcdcd]'>Private Room</p>
@@ -73,9 +73,9 @@ function ListProperties() {
                     </div>
                 </div>
 
-                <div className='w-4/12 flex justify-center items-center'>
+                <div className='w-full px-6 md:w-1/2 lg:w-4/12 lg:flex justify-center items-center' data-aos="flip-left">
                     <div className='border-solid border-[#e5e4e4] border-[2px] rounded-[30px] bg-white mb-7'>
-                        <img className='w-full' src= {image003} alt="user" />
+                        <img className='w-full h-[300px]' src= {image003} alt="user" />
                         <div className='px-6'>
                             <p className='mt-4 mb-6'>2578 Folsom Street, San Francisco, CA, 94110</p>
                             <p className='text-[#cfcdcd]'>Private Room</p>
@@ -98,9 +98,9 @@ function ListProperties() {
                     </div>
                 </div>
 
-                <div className='w-4/12 flex justify-center items-center'>
+                <div className='w-full px-6 md:w-1/2 lg:w-4/12 lg:flex justify-center items-center' data-aos="flip-left">
                     <div className='border-solid border-[#e5e4e4] border-[2px] rounded-[30px] bg-white mb-7'>
-                        <img className='w-full' src= {image004} alt="user" />
+                        <img className='w-full h-[300px]' src= {image004} alt="user" />
                         <div className='px-6'>
                             <p className='mt-4 mb-6'>2578 Folsom Street, San Francisco, CA, 94110</p>
                             <p className='text-[#cfcdcd]'>Private Room</p>
@@ -123,9 +123,9 @@ function ListProperties() {
                     </div>
                 </div>
 
-                <div className='w-4/12 flex justify-center items-center'>
+                <div className='w-full px-6 md:w-1/2 lg:w-4/12 lg:flex justify-center items-center' data-aos="flip-left">
                     <div className='border-solid border-[#e5e4e4] border-[2px] rounded-[30px] bg-white mb-7'>
-                        <img className='w-full' src= {image005} alt="user" />
+                        <img className='w-full h-[300px]' src= {image005} alt="user" />
                         <div className='px-6'>
                             <p className='mt-4 mb-6'>2578 Folsom Street, San Francisco, CA, 94110</p>
                             <p className='text-[#cfcdcd]'>Private Room</p>
@@ -148,9 +148,9 @@ function ListProperties() {
                     </div>
                 </div>
 
-                <div className='w-4/12 flex justify-center items-center'>
+                <div className='w-full px-6 md:w-1/2 lg:w-4/12 lg:flex justify-center items-center' data-aos="flip-left">
                     <div className='border-solid border-[#e5e4e4] border-[2px] rounded-[30px] bg-white mb-7'>
-                        <img className='w-full' src= {image006} alt="user" />
+                        <img className='w-full h-[300px]' src= {image006} alt="user" />
                         <div className='px-6'>
                             <p className='mt-4 mb-6'>2578 Folsom Street, San Francisco, CA, 94110</p>
                             <p className='text-[#cfcdcd]'>Private Room</p>
